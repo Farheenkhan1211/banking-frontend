@@ -110,7 +110,7 @@ const LoginForm = props => {
         type="input"
         className="form-control"
         id="email"
-        placeholder="Enter email"
+        placeholder="Enter your email"
         value={email}
         onChange={e => {
           setEmail(e.currentTarget.value);
