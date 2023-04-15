@@ -9,10 +9,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.welcome{
-  margin-left:auto;
-  margin-right:0.5rem;
-  color: greenyellow;
+.welcome {
+  margin-left: auto;
+  margin-right: 0.5rem;
+  color: black;
 }
 .app-navbar {
   width: 100%;
@@ -20,13 +20,13 @@
   color: #282c34;
 }
 .logout {
-  border:none;
+  border: none;
   background-color: dodgerblue;
   color: #282c34;
 }
 .app-brand {
   font-size: 2rem;
-  color: greenyellow;
+  color: black;
 }
 .nav-pages {
   color: #282c34;
