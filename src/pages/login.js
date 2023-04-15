@@ -11,10 +11,11 @@ const Login = () => {
 
   return (
     <Card
-      hdrcolor="greenyellow"
-      hdrtext="#282c34"
-      bodycolor="dodgerblue"
-      bodytext="#282c34"
+      className="home-page"
+      hdrcolor="dodgerblue"
+      hdrtext="white"
+      bodycolor="#F6F9F2"
+      bodytext="#030501"
       header="Login"
       status={status}
       body={
@@ -110,7 +111,7 @@ const LoginForm = props => {
         type="input"
         className="form-control"
         id="email"
-        placeholder="Enter your email"
+        placeholder="Enter email"
         value={email}
         onChange={e => {
           setEmail(e.currentTarget.value);
@@ -134,7 +135,7 @@ const LoginForm = props => {
       <button
         type="submit"
         className="form-control btn btn-light mb-1 mt-0"
-        disabled={!validTransaction}
+        style={{ backgroundColor: "dodgerblue", color: "white" }}
         onClick={handleLogin}
       >
         Submit

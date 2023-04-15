@@ -74,10 +74,10 @@ const Deposit = () => {
       <Welcome />
       <Card
         className="deposit-page p-3"
-        hdrcolor="greenyellow"
-        hdrtext="#282c34"
-        bodycolor="dodgerblue"
-        bodytext="#282c34"
+        hdrcolor="dodgerblue"
+        hdrtext="white"
+        bodycolor="#F6F9F2"
+        bodytext="#030501"
         header="Deposits"
         title={status}
         text="Enter Deposit Amount"
