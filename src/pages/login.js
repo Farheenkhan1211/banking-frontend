@@ -64,6 +64,7 @@ const LoginForm = props => {
       .then(response => response.text())
       .then(text => {
         try {
+          console.log(text, "text");
           const data = JSON.parse(text);
           localStorage.setItem("token", data.account);
           const token = localStorage.getItem("token");
