@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     setInterval(() => {
       setStatus(localStorage.getItem("token"));
-    }, 3000);
+    }, 100);
   }, []);
   
   return (
