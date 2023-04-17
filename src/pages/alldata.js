@@ -24,7 +24,6 @@ const AllData = () => {
     return (
       <tr key={index}>
         <td className="fs-6 text-wrap">{user.name}</td>
-        <td className="fs-6 text-wrap">{user.type}</td>
         <td className="fs-6 text-wrap">${user.balance}</td>
       </tr>
     );
@@ -39,16 +38,13 @@ const AllData = () => {
         hdrtext="white"
         bodycolor="#F6F9F2"
         bodytext="#030501"
-        header="All Data"
+        header="Balance"
         body={
           <table className="table">
             <thead>
               <tr>
                 <th className="fs-6" scope="col">
                   Name
-                </th>
-                <th className="fs-6" scope="col">
-                  Email
                 </th>
                 <th className="fs-6" scope="col">
                   Balance
